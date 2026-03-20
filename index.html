@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felipe Gomes da Silva - Desenvolvedor Frontend</title>
+
+  <link rel="icon" type="image/x-icon" href="./src/images/favicon.ico">
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">FG</h1>
+        </a>
+        <div class="header-right">
+          <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+          </div>
+
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖐🏻,</p>
+          <h1>Sou o Felipe Gomes</h1>
+          <h2>Desenvolvedor Frontend</h2>
+          <p>Em transição para Fullstack</p>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/felipe-gomes-da-silva-a7a252263/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5511987815146?text=Olá Felipe, vi seu portfólio e gostaria de conversar!" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/FelipeGdasilva" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/image/foto do perfil.jpg" alt="foto do perfil do Felipe" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/image/foto do perfil.jpg" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Felipe Gomes e sou um desenvolvedor frontend em formação!</strong> 
+            Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras.😃
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💙
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="./src/arquivos/Curriculo_Felipe_Gomes_Frontend_Junior.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Possuo conhecimento em JavaScript para desenvolver funcionalidades dinâmicas em aplicações web, como manipulação do DOM e integração com APIs. </p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Tenho domínio em HTML5 para construção de estruturas semânticas, organizadas e acessíveis seguindo boas práticas.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Experiência com CSS3 para estilização de interfaces modernas e responsivas, incluindo técnicas avançadas como Glassmorphism.</p>
+        </div>
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Utilizo o GitHub para hospedagem, versionamento e documentação profissional de projetos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        
+        <div class="projeto sonic">        
+          <img src="./src/image/Sonic-Battle-Universe.png" alt="Sonic Battle" />
+          <div class="informacoes-projeto">          
+            <h3>Sonic Battle Universe</h3>
+            <p>Interface interativa inspirada em seleção de personagens de jogos.</p>
+            <p><strong>Tech:</strong> JS ES6+, CSS3, HTML5, React. </p>
+          </div>     
+          <div class="botoes-projeto">
+            <a href="https://felipegdasilva.github.io/Sonic-Battle-Universe/" target="_blank" class="botao-projeto">🔗 Ver Projeto</a>
+            <a href="https://github.com/FelipeGdasilva/Sonic-Battle-Universe" target="_blank" class="botao-projeto secundario">💻 Ver Código</a>
+          </div>
+        </div>
+
+        <div class="projeto mario">        
+          <img src="./src/image/super mario.png" alt="projeto mario" />
+          <div class="informacoes-projeto">          
+            <h3>Super Mario</h3>
+            <p>Página mostrando o trailer do filme “Super Mario” com foco em layout responsivo.</p>
+            <p><strong>Tech:</strong> JS ES6+, CSS3, HTML5.</p>
+          </div> 
+          <div class="botoes-projeto">
+            <a href="https://felipegdasilva.github.io/Projero-Mario/" target="_blank" class="botao-projeto">🔗 Ver Projeto</a>
+            <a href="https://github.com/FelipeGdasilva/Projero-Mario" target="_blank" class="botao-projeto secundario">💻 Ver Código</a>
+          </div>
+        </div>
+
+        <div class="projeto animebot">         
+          <img src="./src/image/Animebot-IA.png" alt="projeto animebot" />
+          <div class="informacoes-projeto">          
+            <h3>Henshin AI</h3>
+            <p>Recomendador inteligente via IA e n8n focado em análise de humor e tratamento de dados resiliente.</p>
+            <p><strong>Tech:</strong> JS ES6+, CSS3, n8n, AI Agent.</p>
+          </div> 
+          <div class="botoes-projeto">
+            <a href="https://felipegdasilva.github.io/Henshin.AI/" target="_blank" class="botao-projeto">🔗 Ver Projeto</a>
+            <a href="https://github.com/FelipeGdasilva/Henshin.AI" target="_blank" class="botao-projeto secundario">💻 Ver Código</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <form action="https://formspree.io/f/mlgjezyg" method="POST" class="formulario-contato">
+        <div class="row">
+          <div class="campo">
+            <input type="text" name="name" placeholder="Seu Nome" required class="inner-shadow">
+          </div>
+          <div class="campo">
+            <input type="email" name="email" placeholder="Seu E-mail" required class="inner-shadow">
+          </div>
+        </div>
+        <div class="campo">
+          <textarea name="message" placeholder="Sua Mensagem" required class="inner-shadow"></textarea>
+        </div>
+        <button type="submit" class="botao outer-shadow">Enviar Mensagem</button>
+      </form>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/felipe-gomes-da-silva-a7a252263/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5511987815146?text=Olá Felipe, vi seu portfólio e gostaria de conversar!" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/FelipeGdasilva" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./src/index.js"></script>
+</body>
+
+</html>

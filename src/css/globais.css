@@ -1,0 +1,78 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alinhar-itens-no-centro {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Seus efeitos de Neumorfismo */
+.outer-shadow {
+    box-shadow: var(--outer-shadow);
+}
+
+.inner-shadow {
+    box-shadow: var(--inner-shadow);
+}
+
+.botao {
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: var(--primary-color);
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    box-shadow: var(--inner-shadow);
+    color: var(--secondary-color);
+}
+
+.redes-sociais a:active {
+    box-shadow: var(--inner-shadow);
+}
+
+/* Estilização dos ícones das redes sociais */
+.redes-sociais a i {
+    font-size: 20px; /* Tamanho do ícone */
+    transition: all 0.3s ease;
+}
+
+/* Cores oficiais das marcas para dar um toque profissional */
+.fa-linkedin-in { color: #0077b5; }
+.fa-whatsapp { color: #25d366; }
+.fa-github { color: var(--text-color); }
+
+/* Efeito ao passar o mouse */
+.redes-sociais a:hover i {
+    transform: scale(1.2); /* O ícone cresce um pouco */
+    filter: brightness(1.2);
+}

@@ -1,0 +1,68 @@
+.home {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.full-screen {
+    min-height: 80vh;
+}
+
+.texto-home, .img-home {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.texto-home p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.texto-home h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.texto-home h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+/* Redes Sociais */
+.redes-sociais {
+    margin-top: 30px;
+}
+
+.redes-sociais a {
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.redes-sociais a:hover {
+    color: var(--primary-color);
+}
+
+/* Foto do Perfil */
+.img-home .img-box {
+    max-width: 350px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.img-home .img-box img {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid transparent;
+}

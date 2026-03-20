@@ -1,0 +1,35 @@
+.sobre-mim .imagem-sobre-mim {
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding: 0 15px;
+}
+
+.sobre-mim .informacoes-sobre-mim {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding: 0 15px;
+}
+
+.sobre-mim .informacoes-sobre-mim p {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.sobre-mim .informacoes-sobre-mim strong {
+    color: var(--primary-color);
+}
+
+.sobre-mim .botoes {
+    margin-top: 30px;
+}
+
+.sobre-mim .img-box {
+    border-radius: 10px;
+}
+
+.sobre-mim .img-box img {
+    border-radius: 10px;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+# Pastas do Windows e Sistema
+Thumbs.db
+desktop.ini
+
+# Pastas de dependências (quando você começar com React/Node)
+node_modules/
+dist/
+build/
+
+# Arquivos de log e temporários do OneDrive
+*.log
+.DS_Store
