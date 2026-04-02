@@ -38,8 +38,6 @@ https://github.com/FelipeGdasilva/Sonic-Battle-Universe
 - Apresentação clara dos projetos
 - Formulário de contato funcional
 
-## 🌐 Acesse o portfólio
-🔗 https://SEU-LINK-DO-GITHUB-PAGES-AQUI
 
 ## 📬 Contato
 - LinkedIn: https://www.linkedin.com/in/felipe-gomes-da-silva-a7a252263/
