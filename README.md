@@ -21,7 +21,7 @@ Atualmente estou em **transição para Fullstack**, aprofundando meus estudos em
 Interface interativa inspirada em sistemas de seleção de personagens de jogos.
 
 **Tecnologias:**  
-React, JavaScript (ES6+), HTML5, CSS3
+React, JavaScript (ES6+), HTML5, CSS3, GitHub
 
 🔗 **Projeto online:**  
 https://felipegdasilva.github.io/Sonic-Battle-Universe/
