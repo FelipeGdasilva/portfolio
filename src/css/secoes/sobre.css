@@ -17,7 +17,7 @@
     margin-bottom: 15px;
 }
 
-.sobre-mim .informacoes-sobre-mim strong {
+.sobre-mim .informacoes-sobre-mim h3 {
     color: var(--primary-color);
 }
 
